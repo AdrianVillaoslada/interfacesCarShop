@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Audi Q8 e-tron | Car Shop</title>
+	<link rel="stylesheet" href="scss/coche.css">
+</head>
+<body>
+	<h1>Audi Q8 e-tron</h1>
+	<p>100 % eléctrico · 55 quattro S line</p>
+	<p>72.400 €</p>
+	<p>SUV eléctrico premium con autonomía de hasta 600 km y tracción integral quattro.</p>
+
+	<form>
+		<div class="mb-3">
+			<label for="potencia" class="form-label">Potencia</label>
+			<select class="form-select" id="potencia" name="potencia">
+				<option selected>408 CV</option>
+				<option>340 CV</option>
+				<option>503 CV</option>
+			</select>
+		</div>
+
+		<div class="mb-3">
+			<label for="color" class="form-label">Color</label>
+			<select class="form-select" id="color" name="color">
+				<option selected>Plata Mythos</option>
+				<option>Negro Mito</option>
+				<option>Gris Daytona</option>
+				<option>Blanco Glaciar</option>
+			</select>
+		</div>
+
+		<div class="mb-3">
+			<label for="nombre" class="form-label">Nombre</label>
+			<input class="form-control" id="nombre" name="nombre" type="text" required>
+		</div>
+
+		<div class="mb-3">
+			<label for="correo" class="form-label">Correo electrónico</label>
+			<input class="form-control" id="correo" name="correo" type="email" aria-describedby="ayuda-correo" required>
+			<div class="form-text" id="ayuda-correo">Te contactaremos para coordinar la prueba.</div>
+		</div>
+
+		<button class="btn btn-primary" type="submit">Solicitar prueba</button>
+	</form>
+</body>
+</html>
