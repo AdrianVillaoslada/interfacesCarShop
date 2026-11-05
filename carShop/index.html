@@ -6,42 +6,42 @@
     <title>Car Shop</title>
     <link href="scss/miestilo.css" rel="stylesheet">
 </head>
-<body>
+<body class="catalog-page container-fluid p-0 min-vh-100">
 
     
-    <header>
-    <nav>
+    <header class="d-flex justify-content-end">
+    <nav class="d-flex align-items-center gap-2">
         <p>Products</p>
         <p>Solutions</p>
         <p>Contact</p>
-        <button>Iniciar Sesion</button>
-        <button>Registarse</button>
+        <button class="btn btn-outline-secondary btn-sm">Iniciar Sesion</button>
+        <button class="btn btn-dark btn-sm">Registarse</button>
     </nav>
     </header>
 
     <img id="logo" src="#" alt="#">
-    <h2>Filtros</h2>
+    <h2 class="h4">Filtros</h2>
 
-    <ul>
-        <input type="text" name="buscar" id="buscar">
+    <ul class="list-unstyled">
+        <input class="form-control form-control-sm" type="text" name="buscar" id="buscar">
         <li>Marcas</li>
         <li>Modelos</li>
         <li>Precio Min</li>
         <li>Precio Max</li>
-        <button>Aplicar Filtros</button>
+        <button class="btn btn-dark btn-sm w-100">Aplicar Filtros</button>
         <br>
-        <button>Vehiculos Guardados</button>
+        <button class="btn btn-outline-secondary btn-sm w-100">Vehiculos Guardados</button>
     </ul>
 
-    <section>
+    <section class="row g-4">
 
-        <div>
+        <div class="col-12">
             <h2>Catalogo</h2>
             <h3>Coches</h3>
         </div>
 
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -51,8 +51,8 @@
             </div>
         </article>
         
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -62,8 +62,8 @@
             </div>
         </article>
 
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -73,8 +73,8 @@
             </div>
         </article>
 
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -84,8 +84,8 @@
             </div>
         </article>
 
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -95,8 +95,8 @@
             </div>
         </article>
 
-        <article>
-            <div class="card" style="width: 18rem;">
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">nombre del coche</h5>
@@ -106,7 +106,7 @@
             </div>
         </article>
 
-         <div>
+         <div class="col-12 d-flex justify-content-center align-items-center gap-2">
             <button>Previous</button>
             <button>1</button>
             <button>2</button>
