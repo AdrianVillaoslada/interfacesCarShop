@@ -14,19 +14,20 @@
 			<p>Contact</p>
 			<button class="btn btn-outline-secondary btn-sm" type="button">Sign in</button>
 			<button class="btn btn-dark btn-sm" type="button">Register</button>
+			<button class="btn btn-outline-secondary btn-sm" id="theme-toggle" type="button" aria-pressed="false">Modo Oscuro</button>
 		</nav>
 	</header>
 
 	<main class="container car-detail-content">
 		<div class="row g-3 car-detail-layout">
 			<section class="col-12 col-md-7 car-gallery" aria-label="Galería del Audi Q8 e-tron">
-				<div class="car-gallery-main" aria-hidden="true"></div>
-				<div class="d-flex gap-2 car-gallery-thumbnails">
-					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
-					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
-					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
-					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
-					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+				<div class="car-gallery-main" aria-hidden="true" style="background-image: url('imagenes/imagenes de coche/Foto — Audi Q8 e-tron.png');"></div>
+				<div class="d-flex gap-2 car-gallery-thumbnails" aria-label="Seleccionar imagen del vehículo">
+					<button type="button" class="car-gallery-thumbnail" aria-label="Vista principal" data-image="imagenes/imagenes de coche/Foto — Audi Q8 e-tron.png" style="background-image: url('imagenes/imagenes de coche/Foto — Audi Q8 e-tron.png');"></button>
+					<button type="button" class="car-gallery-thumbnail" aria-label="Vista frontal" data-image="imagenes/imagenes de coche/Vista frontal.png" style="background-image: url('imagenes/imagenes de coche/Vista frontal.png');"></button>
+					<button type="button" class="car-gallery-thumbnail" aria-label="Vista lateral" data-image="imagenes/imagenes de coche/Vista lateral.png" style="background-image: url('imagenes/imagenes de coche/Vista lateral.png');"></button>
+					<button type="button" class="car-gallery-thumbnail" aria-label="Vista trasera" data-image="imagenes/imagenes de coche/Vista trasera.png" style="background-image: url('imagenes/imagenes de coche/Vista trasera.png');"></button>
+					<button type="button" class="car-gallery-thumbnail active" aria-label="Vista interior" data-image="imagenes/imagenes de coche/Vista interior.png" style="background-image: url('imagenes/imagenes de coche/Vista interior.png');"></button>
 				</div>
 			</section>
 
@@ -88,5 +89,6 @@
 			</section>
 		</div>
 	</main>
+	<script src="js/modo_oscuro.js" defer></script>
 </body>
 </html>

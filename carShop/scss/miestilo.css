@@ -12061,8 +12061,9 @@ textarea.form-control-lg {
 }
 .catalog-page {
   display: grid;
-  grid-template-columns: 135px minmax(0, 1fr);
+  grid-template-columns: 180px minmax(0, 1fr);
   grid-template-rows: auto minmax(0, 1fr);
+  background: linear-gradient(to right, #f5f5f5 180px, transparent 180px);
 }
 .catalog-page > header {
   grid-column: 2;
@@ -12095,7 +12096,7 @@ textarea.form-control-lg {
   grid-row: 2;
   align-self: start;
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 0.625rem 0 1rem;
 }
 .catalog-page > ul input {
   margin-bottom: 0.75rem;
@@ -12106,9 +12107,7 @@ textarea.form-control-lg {
   font-size: 0.875rem;
 }
 .catalog-page > ul li:nth-of-type(1),
-.catalog-page > ul li:nth-of-type(2),
-.catalog-page > ul li:nth-of-type(3),
-.catalog-page > ul li:nth-of-type(4) {
+.catalog-page > ul li:nth-of-type(2) {
   display: flex;
   justify-content: space-between;
 }
@@ -12116,16 +12115,37 @@ textarea.form-control-lg {
 .catalog-page > ul li:nth-of-type(2)::after {
   content: "›";
 }
-.catalog-page > ul li:nth-of-type(3),
-.catalog-page > ul li:nth-of-type(4) {
+.catalog-page > ul .price-filter:nth-of-type(3),
+.catalog-page > ul .price-filter:nth-of-type(4) {
+  display: block;
   margin-top: 0.25rem;
-  padding: 0.4rem;
-  border: 1px solid var(--bs-border-color);
-  border-radius: var(--bs-border-radius);
+  padding: 0.4rem 0;
+  border: 0;
 }
-.catalog-page > ul li:nth-of-type(3)::after,
-.catalog-page > ul li:nth-of-type(4)::after {
-  content: "€";
+.catalog-page > ul .price-filter:nth-of-type(3) label,
+.catalog-page > ul .price-filter:nth-of-type(4) label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.catalog-page > ul .price-input {
+  position: relative;
+  width: 100%;
+}
+.catalog-page > ul .price-input input {
+  display: block;
+  width: 100%;
+  height: 27px;
+  min-height: 27px;
+  margin: 0;
+  padding: 0 1.75rem 0 0.5rem;
+  border-radius: 0.375rem;
+  background-color: #f8f7f8;
+}
+.catalog-page > ul .price-input span {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
 }
 .catalog-page > ul button {
   margin-top: 0.75rem;
@@ -12163,7 +12183,7 @@ textarea.form-control-lg {
 .catalog-page > section.row > div:last-child {
   position: fixed;
   bottom: 0.5rem;
-  left: calc(135px + (100vw - 135px) / 2);
+  left: calc(180px + (100vw - 180px) / 2);
   z-index: 2;
   display: flex;
   justify-content: center;
