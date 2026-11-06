@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Audi Q8 e-tron | Car Shop</title>
+	<link rel="stylesheet" href="css/miestilo.css">
+</head>
+<body class="car-detail-page">
+	<header class="d-flex justify-content-end align-items-center">
+		<nav class="d-flex align-items-center" aria-label="Navegación principal">
+			<p>Products</p>
+			<p>Solutions</p>
+			<p>Contact</p>
+			<button class="btn btn-outline-secondary btn-sm" type="button">Sign in</button>
+			<button class="btn btn-dark btn-sm" type="button">Register</button>
+		</nav>
+	</header>
+
+	<main class="container car-detail-content">
+		<div class="row g-3 car-detail-layout">
+			<section class="col-12 col-md-7 car-gallery" aria-label="Galería del Audi Q8 e-tron">
+				<div class="car-gallery-main" aria-hidden="true"></div>
+				<div class="d-flex gap-2 car-gallery-thumbnails">
+					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+					<span class="car-gallery-thumbnail" aria-hidden="true"></span>
+				</div>
+			</section>
+
+			<section class="col-12 col-md-5 car-details" aria-labelledby="car-title">
+				<div class="d-flex justify-content-between align-items-start">
+					<div>
+						<h1 class="h4 mb-1" id="car-title">Audi Q8 e-tron</h1>
+						<span class="badge text-bg-dark">Eléctrico</span>
+					</div>
+					<button class="btn btn-dark rounded-circle car-favorite" type="button" aria-label="Guardar Audi Q8 e-tron">☆</button>
+				</div>
+
+				<p class="car-price mb-2"><span class="car-price-currency">$</span>72.400</p>
+				<p class="text-secondary car-description">SUV eléctrico premium con autonomía de hasta 600 km y tracción integral quattro, interior digital y acabados de lujo.</p>
+
+				<form action="#" method="post">
+					<div class="row g-3">
+						<div class="col-6">
+							<label class="form-label" for="potencia">Potencia</label>
+							<select class="form-select" id="potencia" name="potencia">
+								<option selected>408 CV</option>
+								<option>340 CV</option>
+								<option>503 CV</option>
+							</select>
+						</div>
+						<div class="col-6">
+							<label class="form-label" for="color">Color</label>
+							<select class="form-select" id="color" name="color">
+								<option selected>Plata Mythos</option>
+								<option>Negro Mito</option>
+								<option>Gris Daytona</option>
+								<option>Blanco Glaciar</option>
+							</select>
+						</div>
+					</div>
+					<button class="btn btn-dark w-100 mt-3" type="submit">Reservar prueba</button>
+				</form>
+
+				<div class="row g-2 car-reviews">
+					<article class="col-6">
+						<div class="car-review h-100">
+							<div class="d-flex justify-content-between">
+								<strong>4.8 ★</strong>
+								<span>128 reseñas</span>
+							</div>
+							<p>“Un SUV eléctrico con acabados premium, mucha autonomía y una conducción muy suave.”</p>
+						</div>
+					</article>
+					<article class="col-6">
+						<div class="car-review h-100">
+							<div class="d-flex justify-content-between">
+								<strong>4.9 ★</strong>
+								<span>42 reseñas</span>
+							</div>
+							<p>“La experiencia digital del interior es excelente y la tracción quattro da mucha confianza.”</p>
+						</div>
+					</article>
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
+</html>

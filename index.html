@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop</title>
+    <link href="css/miestilo.css" rel="stylesheet">
+</head>
+<body class="catalog-page container-fluid p-0 min-vh-100">
+
+    
+    <header class="d-flex justify-content-end">
+    <nav class="d-flex align-items-center gap-2">
+        <p>Products</p>
+        <p>Solutions</p>
+        <p>Contact</p>
+        <button class="btn btn-outline-secondary btn-sm">Iniciar Sesion</button>
+        <button class="btn btn-dark btn-sm">Registarse</button>
+    </nav>
+    </header>
+
+    <img id="logo" src="#" alt="#">
+    <h2 class="h4">Filtros</h2>
+
+    <ul class="list-unstyled">
+        <li><input class="form-control form-control-sm" type="text" name="buscar" id="buscar"></li>
+        <li>Marcas</li>
+        <li>Modelos</li>
+        <li class="price-filter">
+            <label for="price-min">Precio Min:</label>
+            <div class="price-input">
+                <input class="form-control form-control-sm" id="price-min" name="priceMin" type="number" min="0" step="any">
+                <span aria-hidden="true">€</span>
+            </div>
+        </li>
+        <li class="price-filter">
+            <label for="price-max">Precio Max:</label>
+            <div class="price-input">
+                <input class="form-control form-control-sm" id="price-max" name="priceMax" type="number" min="0" step="any">
+                <span aria-hidden="true">€</span>
+            </div>
+        </li>
+        
+        <li><button class="btn btn-dark btn-sm w-100">Aplicar Filtros</button></li>
+        
+        <li><button class="btn btn-outline-secondary btn-sm w-100">Vehiculos Guardados</button></li>
+    </ul>
+
+    <section class="row g-4">
+
+        <div class="col-12">
+            <h2>Catalogo</h2>
+            <h3>Coches</h3>
+        </div>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+        
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100 w-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">nombre del coche</h4>
+                    <p class="card-text">info del coche</p>
+                    <a href="#" class="btn btn-primary">Mas info</a>
+                </div>
+            </div>
+        </article>
+
+         <div class="col-12 d-flex justify-content-center align-items-center gap-2">
+            <button>Previous</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <p>...</p>
+            <button>67</button>
+            <button>68</button>
+            <button>Next</button>
+        </div>
+
+    </section>
+    
+    <br>
+
+    <footer>
+        <button>X</button>
+    </footer>
+
+
+</body>
+</html>
