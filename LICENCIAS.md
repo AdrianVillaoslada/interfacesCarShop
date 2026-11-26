@@ -1,5 +1,6 @@
 1. Fotografías
 ----------------------
+
 Fotografía 1 - Volkswagen Golf rojo
 
 Archivo original: Volkswagen Golf.jpg
@@ -13,6 +14,7 @@ Fuente: https://www.pexels.com/es-es/foto/volkswagen-golf-gti-rojo-estacionado-a
 Licencia: Gratis
 
 Modificaciones: Reescalado a 800x1200 px y conversión a WebP.
+
 
 Fotografía 2 - Peugeot 208 amarillo
 
@@ -28,6 +30,7 @@ Licencia: gratis
 
 Modificaciones: Reescalado a 800x1200 px y conversión a WebP.
 
+
 Fotografía 3 - Toyota Corolla
 
 Archivo original: Toyota Corolla.jpg
@@ -42,6 +45,7 @@ Licencia: gratis
 
 Modificaciones: Reescalado a 1920×1197 px y conversión a WebP.
 
+
 Fotografía 4 - Ford Focus Blanco
 
 Archivo original: Ford Focus.jpg
@@ -55,6 +59,7 @@ Fuente: https://www.pexels.com/es-es/foto/carretera-paisaje-montanas-naturaleza-
 Licencia: gratis
 
 Modificaciones: Reescalado a 1920×1536 px y conversión a WebP.
+
 
 Fotografía 5 - Hyundai i30 gris
 
