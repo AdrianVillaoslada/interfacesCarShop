@@ -1,144 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Shop</title>
-    <link href="css/miestilo.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Encuentra tu próximo coche en Car Shop. Explora nuestro catálogo y descubre el vehículo ideal para ti.">
+    <title>Car Shop | Encuentra tu próximo coche</title>
+    <link rel="stylesheet" href="css/miestilo.css">
 </head>
-<body class="catalog-page container-fluid p-0 min-vh-100">
-
-    
-    <header class="d-flex justify-content-end">
-    <nav class="d-flex align-items-center gap-2">
-        <p>Products</p>
-        <p>Solutions</p>
-        <p>Contact</p>
-        <button class="btn btn-outline-secondary btn-sm">Iniciar Sesion</button>
-        <button class="btn btn-dark btn-sm">Registarse</button>
-        <button class="btn btn-outline-secondary btn-sm" id="theme-toggle" type="button" aria-pressed="false">Modo Oscuro</button>
-    </nav>
+<body class="index">
+    <header class="container py-3">
+        <nav class="navbar navbar-expand-md" aria-label="Navegación principal">
+            <a class="navbar-brand fw-bold" href="index.html">CAR SHOP</a>
+            <div class="d-flex flex-wrap align-items-center justify-content-end gap-2 ms-auto">
+                <a class="btn btn-link link-body-emphasis text-decoration-none" href="catalogo.html">Catálogo</a>
+                <a class="btn btn-link link-body-emphasis text-decoration-none" href="#ventajas">Ventajas</a>
+                <a class="btn btn-link link-body-emphasis text-decoration-none" href="formularioAsistencia.html">Contacto</a>
+                <button class="btn btn-outline-secondary btn-sm" id="theme-toggle" type="button" aria-pressed="false">Modo Oscuro</button>
+            </div>
+        </nav>
     </header>
 
-    <img id="logo" src="#" alt="#">
-    <h2 class="h4">Filtros</h2>
-
-    <ul class="list-unstyled">
-        <li><input class="form-control form-control-sm" type="text" name="buscar" id="buscar"></li>
-        <li>Marcas</li>
-        <li>Modelos</li>
-        <li class="price-filter">
-            <label for="price-min">Precio Min:</label>
-            <div class="price-input">
-                <input class="form-control form-control-sm" id="price-min" name="priceMin" type="number" min="0" step="any">
-                <span aria-hidden="true">€</span>
+    <main>
+        <section class="container py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-12 col-lg-6">
+                    <span class="badge text-bg-light border rounded-pill px-3 py-2 mb-3">TU PRÓXIMO COCHE EMPIEZA AQUÍ</span>
+                    <h1 class="display-4 fw-bold">Encuentra el coche que encaja contigo</h1>
+                    <p class="lead text-secondary mt-3">Explora una selección de vehículos pensada para acompañarte en cada viaje. Compara opciones y descubre tu próximo coche.</p>
+                    <div class="d-flex flex-wrap gap-2 mt-4">
+                        <a class="btn btn-dark btn-lg" href="catalogo.html">Explorar catálogo</a>
+                    </div>
+                    <div class="d-flex flex-wrap gap-4 mt-5">
+                        <div>
+                            <strong class="d-block fs-4">A tu medida</strong>
+                            <span class="text-secondary">Opciones para cada estilo</span>
+                        </div>
+                        <div>
+                            <strong class="d-block fs-4">Fácil de explorar</strong>
+                            <span class="text-secondary">Todo empieza en un clic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="ratio ratio-4x3">
+                        <img class="w-100 h-100 object-fit-cover rounded-4 shadow" src="src/media/img/Ford%20Focus.webp" alt="Ford Focus azul en una carretera">
+                    </div>
+                </div>
             </div>
-        </li>
-        <li class="price-filter">
-            <label for="price-max">Precio Max:</label>
-            <div class="price-input">
-                <input class="form-control form-control-sm" id="price-max" name="priceMax" type="number" min="0" step="any">
-                <span aria-hidden="true">€</span>
+        </section>
+
+        <section class="container py-5" id="ventajas">
+            <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-4">
+                <div>
+                    <p class="text-secondary text-uppercase small fw-semibold mb-2">Empieza a descubrir</p>
+                    <h2 class="h1 fw-bold mb-0">Una forma sencilla de encontrar tu coche</h2>
+                </div>
             </div>
-        </li>
-        
-        <li><button class="btn btn-dark btn-sm w-100">Aplicar Filtros</button></li>
-        
-        <li><button class="btn btn-outline-secondary btn-sm w-100">Vehiculos Guardados</button></li>
-    </ul>
 
-    <section class="row g-4">
+            <div class="row g-4">
+                <article class="col-12 col-md-4">
+                    <div class="card h-100 border-0 bg-body-tertiary">
+                        <div class="card-body p-4">
+                            <span class="badge text-bg-dark rounded-pill mb-3">01</span>
+                            <h3 class="h5 card-title fw-bold">Explora a tu ritmo</h3>
+                            <p class="card-text text-secondary mb-0">Revisa nuestro catálogo y encuentra modelos que se adapten a tus planes.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <div class="card h-100 border-0 bg-body-tertiary">
+                        <div class="card-body p-4">
+                            <span class="badge text-bg-dark rounded-pill mb-3">02</span>
+                            <h3 class="h5 card-title fw-bold">Compara opciones</h3>
+                            <p class="card-text text-secondary mb-0">Descubre diferentes estilos y características para elegir con confianza.</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-4">
+                    <div class="card h-100 border-0 bg-body-tertiary">
+                        <div class="card-body p-4">
+                            <span class="badge text-bg-dark rounded-pill mb-3">03</span>
+                            <h3 class="h5 card-title fw-bold">Cuenta con nosotros</h3>
+                            <p class="card-text text-secondary mb-0">¿Tienes dudas? Escríbenos y te ayudaremos a dar el siguiente paso.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 
-        <div class="col-12">
-            <h2>Catalogo</h2>
-            <h3>Coches</h3>
+    <footer class="container py-4 border-top">
+        <div class="d-flex flex-wrap justify-content-between gap-2 text-secondary small">
+            <span class="fw-semibold text-body">CAR SHOP</span>
+            <span>Tu próximo viaje empieza aquí.</span>
         </div>
-
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="src/media/img/Volkswagen Golf.webp" class="card-img-top" alt="Volkswagen Golf rojo">
-                <div class="card-body">
-                    <h4 class="card-title">Volkswagen Golf</h4>
-                    <p class="card-text">Berlina compacta con gran espacio interior, eficiencia y tecnología de serie.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-        
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="src/media/img/Peugeot 208.webp" class="card-img-top" alt="Peugeot 208 amarillo">
-                <div class="card-body">
-                    <h4 class="card-title">Peugeot 208</h4>
-                    <p class="card-text">Berlina compacta con acabados premium, conectividad avanzada y conducción suave.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="src/media/img/Toyota Corolla.webp" class="card-img-top" alt="Toyota Corolla blanco">
-                <div class="card-body">
-                    <h4 class="card-title">Toyota Corolla</h4>
-                    <p class="card-text">Compacto urbano con interior digital y motorizaciones eficientes para el día a día.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="src/media/img/Hyundai i30.webp" class="card-img-top" alt="Hyundai i30 negro">
-                <div class="card-body">
-                    <h4 class="card-title">Hyundai i30</h4>
-                    <p class="card-text">Berlina compacta con gran habitabilidad, seguridad de serie y acabados cuidados.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="src/media/img/Ford Focus.webp" class="card-img-top" alt="Ford Focus azul">
-                <div class="card-body">
-                    <h4 class="card-title">Ford Focus</h4>
-                    <p class="card-text">Berlina deportiva con conducción ágil, tecnología intuitiva y acabados versátiles.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-
-        <article class="col-12 col-sm-6 col-lg-4">
-            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
-                <img src="imagenes/Foto — Kia Ceed(1).png" class="card-img-top" alt="Kia Ceed blanco">
-                <div class="card-body">
-                    <h4 class="card-title">Kia Ceed</h4>
-                    <p class="card-text">Berlina compacta cómoda y eficiente, con diseño moderno e interior práctico.</p>
-                    <span class="card-detail-icon" aria-hidden="true"></span>
-                </div>
-            </a>
-        </article>
-
-         <div class="col-12 d-flex justify-content-center align-items-center gap-2">
-            <button>Previous</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <p>...</p>
-            <button>67</button>
-            <button>68</button>
-            <button>Next</button>
-        </div>
-
-    </section>
-    
-    <br>
-
-    <footer>
-        <button>X</button>
     </footer>
-
 
     <script src="js/modo_oscuro.js" defer></script>
 </body>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link href="css/miestilo.css" rel="stylesheet">
+</head>
+<body class="catalog-page container-fluid p-0 min-vh-100">
+
+    
+    <header class="d-flex justify-content-end">
+    <nav class="d-flex align-items-center gap-2">
+        <p>Products</p>
+        <p>Solutions</p>
+        <p>Contact</p>
+        <button class="btn btn-outline-secondary btn-sm">Iniciar Sesion</button>
+        <button class="btn btn-dark btn-sm">Registarse</button>
+        <button class="btn btn-outline-secondary btn-sm" id="theme-toggle" type="button" aria-pressed="false">Modo Oscuro</button>
+    </nav>
+    </header>
+
+    <img id="logo" src="#" alt="#">
+    <h2 class="h4">Filtros</h2>
+
+    <ul class="list-unstyled">
+        <li><input class="form-control form-control-sm" type="text" name="buscar" id="buscar"></li>
+        <li>Marcas</li>
+        <li>Modelos</li>
+        <li class="price-filter">
+            <label for="price-min">Precio Min:</label>
+            <div class="price-input">
+                <input class="form-control form-control-sm" id="price-min" name="priceMin" type="number" min="0" step="any">
+                <span aria-hidden="true">€</span>
+            </div>
+        </li>
+        <li class="price-filter">
+            <label for="price-max">Precio Max:</label>
+            <div class="price-input">
+                <input class="form-control form-control-sm" id="price-max" name="priceMax" type="number" min="0" step="any">
+                <span aria-hidden="true">€</span>
+            </div>
+        </li>
+        
+        <li><button class="btn btn-dark btn-sm w-100">Aplicar Filtros</button></li>
+        
+        <li><button class="btn btn-outline-secondary btn-sm w-100">Vehiculos Guardados</button></li>
+    </ul>
+
+    <section class="row g-4">
+
+        <div class="col-12">
+            <h2>Catalogo</h2>
+            <h3>Coches</h3>
+        </div>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Volkswagen Golf.webp" class="card-img-top" alt="Volkswagen Golf rojo">
+                <div class="card-body">
+                    <h4 class="card-title">Volkswagen Golf</h4>
+                    <p class="card-text">Berlina compacta con gran espacio interior, eficiencia y tecnología de serie.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+        
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Peudgeot%20208.webp" class="card-img-top" alt="Peugeot 208 amarillo">
+                <div class="card-body">
+                    <h4 class="card-title">Peugeot 208</h4>
+                    <p class="card-text">Berlina compacta con acabados premium, conectividad avanzada y conducción suave.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Toyota Corolla.webp" class="card-img-top" alt="Toyota Corolla blanco">
+                <div class="card-body">
+                    <h4 class="card-title">Toyota Corolla</h4>
+                    <p class="card-text">Compacto urbano con interior digital y motorizaciones eficientes para el día a día.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Hyundai i30.webp" class="card-img-top" alt="Hyundai i30 negro">
+                <div class="card-body">
+                    <h4 class="card-title">Hyundai i30</h4>
+                    <p class="card-text">Berlina compacta con gran habitabilidad, seguridad de serie y acabados cuidados.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Ford Focus.webp" class="card-img-top" alt="Ford Focus azul">
+                <div class="card-body">
+                    <h4 class="card-title">Ford Focus</h4>
+                    <p class="card-text">Berlina deportiva con conducción ágil, tecnología intuitiva y acabados versátiles.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+
+        <article class="col-12 col-sm-6 col-lg-4">
+            <a href="coche.html" class="card h-100 w-100 text-decoration-none text-reset">
+                <img src="src/media/img/Kia Ceed.webp" class="card-img-top" alt="Kia Ceed blanco">
+                <div class="card-body">
+                    <h4 class="card-title">Kia Ceed</h4>
+                    <p class="card-text">Berlina compacta cómoda y eficiente, con diseño moderno e interior práctico.</p>
+                    <span class="card-detail-icon" aria-hidden="true"></span>
+                </div>
+            </a>
+        </article>
+
+         <div class="col-12 d-flex justify-content-center align-items-center gap-2">
+            <button>Previous</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <p>...</p>
+            <button>67</button>
+            <button>68</button>
+            <button>Next</button>
+        </div>
+
+    </section>
+    
+    <br>
+
+    <footer>
+        <button>X</button>
+    </footer>
+
+
+    <script src="js/modo_oscuro.js" defer></script>
+</body>
+</html>
