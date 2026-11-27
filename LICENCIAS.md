@@ -88,3 +88,37 @@ Fuente: https://www.pexels.com/es-es/foto/suv-marron-en-un-camino-de-tierra-en-u
 Licencia: gratis
 
 Modificaciones: Reescalado a 1920×1280 px y conversión a WebP.
+
+2. Sonidos
+----------------------
+
+Sonido 1 - Bienvenida 
+
+Archivo original: bienvenida.wav
+
+Archivo optimizado: bienvenida.mp3
+
+Autor: ironcross32
+
+Fuente: https://freesound.org/people/ironcross32/sounds/582655/
+
+Licencia: Creative Commons 0
+
+Modificaciones: Formato MP3 y 128 kbps de bitrate
+
+2. Videos
+----------------------
+
+Video 1 - Pagina Index 
+
+Archivo original: skyline.mp4
+
+Archivo optimizado: skyline.mp4
+
+Autor: Gaurav Kumar
+
+Fuente: https://www.pexels.com/video/sleek-black-sports-car-parked-outdoors-30391323/
+
+Licencia: Gratis
+
+Modificaciones: Optimizacion Web y reescalado
