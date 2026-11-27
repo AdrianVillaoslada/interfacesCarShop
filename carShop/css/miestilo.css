@@ -12108,7 +12108,7 @@ textarea.form-control-lg {
   width: 100%;
   height: auto;
   margin: 0;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16/9;
   object-fit: cover;
 }
 .catalog-page .card-body {
